@@ -1,0 +1,388 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px; 
+    background-color: #F6BD66;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex: 1;
+    flex-direction: column;
+    
+}
+footer {
+    background-color: #F6BD66;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+}
+.form-container {
+    background-color: #E58C36;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.form-container h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group textarea,
+.form-group input[type="file"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="date"]:focus,
+.form-group textarea:focus,
+.form-group input[type="file"]:focus {
+    border-color: #DC731E;
+    outline: none;
+}
+
+
+
+.datos-generales {
+    background-color: #F6BD66; 
+    padding: 20px; 
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    border: 2px solid #ccc; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+
+.datos-generales .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+
+.datos-generales .form-group input[type="text"],
+.datos-generales .form-group input[type="date"],
+.datos-generales .form-group textarea,
+.datos-generales .form-group input[type="file"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 14px;
+}
+
+.datos-generales .form-group textarea {
+    height: 100px;
+}
+
+.datos-generales .form-group input[type="text"]:focus,
+.datos-generales .form-group input[type="date"]:focus,
+.datos-generales .form-group textarea:focus,
+.datos-generales .form-group input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.form-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.historia-enfermedad-actual {
+    background-color: #F6BD66;
+    padding: 20px;
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    border: 2px solid #ccc; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+
+
+.historia-enfermedad-actual .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.historia-enfermedad-actual .form-group input[type="text"],
+.historia-enfermedad-actual .form-group input[type="date"],
+.historia-enfermedad-actual .form-group textarea,
+.historia-enfermedad-actual .form-group input[type="file"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.historia-enfermedad-actual .form-group textarea {
+    height: 100px;
+}
+
+.historia-enfermedad-actual .form-group input[type="text"]:focus,
+.historia-enfermedad-actual .form-group input[type="date"]:focus,
+.historia-enfermedad-actual .form-group textarea:focus,
+.historia-enfermedad-actual .form-group input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.antecendentes-generales {
+    background-color: #F6BD66; 
+    padding: 20px; 
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    border: 2px solid #ccc; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+
+.antecendentes-generales .form-group label {
+    font-weight: bold; 
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.antecendentes-generales .form-group input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 14px;
+    margin-bottom: 10px; 
+}
+
+
+.form-submit {
+    background-color: #E58C36;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+
+.form-submit:hover {
+    background-color: #FFD57E;
+}
+
+.Examen-Fisico {
+    background-color: #F6BD66; 
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #ccc; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+
+.Examen-Fisico .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.Examen-Fisico .form-group input[type="text"],
+.Examen-Fisico .form-group textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 14px;
+}
+
+.Examen-Fisico .form-group textarea {
+    height: 100px;
+}
+
+.Examen-Fisico .form-group input[type="text"]:focus,
+.Examen-Fisico .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.Otros-campos {
+    background-color: #F6BD66; 
+    padding: 20px;
+    border-radius: 8px; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    margin-bottom: 20px; 
+}
+
+.Otros-campos .form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.Otros-campos .form-group input[type="text"],
+.Otros-campos .form-group input[type="file"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 14px;
+}
+
+.Otros-campos .form-group textarea {
+    width: calc(100% - 10px);
+    height: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 14px;
+}
+
+.Otros-campos .form-group input[type="file"] {
+    padding-top: 6px; 
+}
+
+.Otros-campos .form-group input[type="text"]:focus,
+.Otros-campos .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 10px;
+    margin-top: 20px; 
+}
+
+.botones button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #E58C36; 
+    color: white;
+    transition: background-color 0.3s; 
+}
+
+.botones button:hover {
+    background-color: #FFD57E; 
+}
+.foto-paciente {
+    max-width: 100%;
+    max-height: 200px; 
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-paciente img {
+    max-width: 100%;
+    max-height: 100%; 
+    width: auto;
+    height: auto;
+    object-fit: contain; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px; 
+    }
+
+    .container {
+        padding: 10px; 
+    }
+
+    .form-container {
+        max-width: 10%; 
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="date"],
+    .form-group textarea,
+    .form-group input[type="file"] {
+        width: calc(100% - 20px);
+        padding: 8%; 
+    }
+}
+
+.foto-container {
+    max-width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.foto-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: contain; 
+}
+

@@ -1,0 +1,160 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #DC731E;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #E58C36;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 2px solid #333;
+}
+footer {
+    background-color: #F6BD66;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    align-self: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #E58C36;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #F6BD66;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    width: 48%;
+}
+
+.half-width {
+    width: 100%;
+}
+
+.section {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 2px solid #333;
+}
+
+.patient-data,
+.appointment-data {
+    background-color: #FFD57E;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    width: calc(100% - 44px);
+}
+
+.container {
+    background-color: #d2e3ef;
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    border-color: #000;
+}
+
+.input[type="submit"] {
+    background-color: #DC731E; 
+}
+
+.input[type="submit"]:hover {
+    background-color: #DC731E; 
+}
+
+.section {
+    border-bottom-color: #000;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 10px;
+    margin-top: 20px; 
+}
+
+.botones button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #E58C36; 
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.botones button:hover {
+    background-color: #F6BD66; 
+}
+
+
+
